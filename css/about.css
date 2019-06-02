@@ -1,0 +1,12 @@
+html {
+    overflow-y: scroll;
+}
+
+.container {
+    margin-top: 15px;
+    display: none; /* hide until fully loaded */
+}
+
+.navbar {
+    position: relative;
+}

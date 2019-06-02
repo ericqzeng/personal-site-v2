@@ -1,0 +1,44 @@
+html {
+    overflow-y: scroll;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.navbar {
+    position: relative;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-sizer, .grid-item {
+    width: 30.66%;
+}
+
+.grid-item {
+    /* margin-bottom set in js */
+    float: center;
+}
+
+.grid-item--width2 {
+    width: 160px;
+}
+
+.grid-item--height2 {
+    height: 140px;
+}
+
+.grid-item>img {
+    display: block;
+    max-width: 100%;
+}
+
+.gutter-sizer {
+    width: 2%;
+}

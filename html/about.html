@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-PUA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title and Icon-->
+    <title>ericqzeng</title>
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!--  Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!--  Core css styles -->
+    <link rel="stylesheet" type="text/css" href="css/core.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
+    <!--  about page custom css -->
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+
+<body>
+
+    <div id='header'>
+    </div>
+
+
+    <!--  about me -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-4'>
+                <img class="rounded img-fluid float-left" alt="Responsive image" src='img/core-img/pf.png'></img>
+            </div>
+            <div class='col-md-8'>
+                <p class='about_me'>
+                    Eric is a junior at The Wharton School majoring in Computer Science and Business Analytics. Originally from San Jose, California, he is currently in the Philadelphia region.
+                </p>
+
+                <p class='about_me'>
+                    As both a software developer and photographer, Eric seeks to find ways to constantly learn, grow, and create. He currently will be working for Captial One over the summer
+                    in New York City but is always open to exploring new industries and places. As an avid fan of all things engineering, Eric has a fond interest in all things "techy", ranging
+                    from software development, computer electronics, consumer devices, and even motorsports (he will talk to you all day about racing).
+                </p>
+
+                <p class='about_me'>
+                    Photography has been one of Eric's keen interests. Since picking up the camera in 2016, Eric has gone on to photograph events around the Philadelphia region. He is a staff member of
+                    <a rel="noopener noreferrer" target='_blank' href="https://www.thedp.com/">The Daily Pennsylvanian</a>, UPenn's student-run newspaper. Feel free to contact him for any inquries regarding his work on this site.
+                </p>
+
+                <p class='about_me'>
+                    At UPenn, Eric is also a dancer with
+                    <a rel="noopener noreferrer" target='_blank' href="https://www.panasiandance.com">Pan-Asian Dance Troupe</a>, which holds an annual performance celebrating Asian cultures through dance. As a current Production Chair and former Vice President of
+                    External Relations and Treasurer, he has experience in both performing and managing a dance troupe. He enjoys spending time with his troupe mates while ensuring the group
+                    can perform at its highest level.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id='footer'>
+    </div>
+
+    <!-- jQuery, bootstrap, etc. -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#header').load('html/header.html');
+            $('#footer').load('html/footer.html');
+        });
+
+        $(window).on('load', function() {
+            $('.container').css({
+                'display': 'block'
+            });
+        });
+    </script>
+</body>
+
+
+</html>
